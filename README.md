@@ -1,12 +1,13 @@
 # desafio-globo
-Passo a passo do desafio recebido pela globo.com
+#Passo a passo do desafio recebido pela globo.com
 
-Script "Push to Start":
+#Script "Push to Start":
 
 #!/bin/bash
 
 echo "Criando um container LXD para servidor local..."
 lxc launch ubuntu:16.04 localserver
+apt-get update
 
 echo "Configurando servidor local..."
 echo "Instalando unzip..."
